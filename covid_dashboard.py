@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 tab1, tab2, tab3, tab4 = st.tabs(
-    ["Dashboard", "Trend Line", "Comorbidities and COVID-19", "Severity Level"])
+    ["Dashboard", "Trend Line", "Comorbidities and COVID-19", "Lockdown Prediction", ])
 
 
 @st.cache_data
@@ -76,6 +76,6 @@ with tab3:
     st.markdown('Results - The plot shows a distribution of counties across a range of diabetes prevalence, plotted against the total number of COVID-19 cases reported in those counties. There does not seem to be a clear linear relationship, suggesting that diabetes prevalence alone may not be a straightforward predictor of COVID-19 case numbers. The data requires further statistical analysis to understand the nature of the relationship?"')
 
 with tab4:
-    st.markdown(
-        'Clustering Counties based on severity levels of COVID-19 cases - Low, Medium and High')
-    st.image('severity.jpg')
+    st.subheader(
+        'Prediciting regional lockdown based on death per population and cases per population')
+    st.image('severity1.jpg')
