@@ -38,7 +38,6 @@ options = {"Cumulative Positive Results": 'positive',
 with tab1:
     # Build page
     st.title('COVID-19 Dashboard: US Data')
-    st.subheader('Source: https://covidtracking.com')
 
     st.sidebar.title('Umass Dartmouth Hackathon')
     start_date = st.sidebar.date_input(
