@@ -77,5 +77,5 @@ with tab3:
 
 with tab4:
     st.subheader(
-        'Prediciting regional lockdown based on death per population and cases per population')
+        'Prediciting regional lockdown based on death per population and cases per population with random forest')
     st.image('severity1.jpg')
