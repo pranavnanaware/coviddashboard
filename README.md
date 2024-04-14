@@ -1,7 +1,3 @@
-# Build a COVID-19 Dashboard With Fewer Than 40 Lines of Code
-
-Lance Reinsmith, M.D. is a radiologist and programming hobbyist who lives and works in San Antonio, TX.  Dr. Reinsmith has seen and interpreted many radiologic exams performed on COVID-19 patients at varying stages of the disease.
-
 #### Intro
 
 One of the difficult parts of making sense of the COVID pandemic (caused by the SARS-CoV-2 virus) is sorting through all the myriad data coming at us from every direction.  In this tutorial, I will show you a fun way of manipulating some of these data to build your own dashboard to view United States COVID-19 statistics.  Afterward, you will hopefully be able to enhance your dashboard(s) to make unique visualizations.
